@@ -1,0 +1,161 @@
+header{
+    background-color:#f5e942;
+}
+nav ul{
+    display:flex;
+    align-items:center;
+    padding:20px;
+    list-style:none;
+}
+nav li{
+    padding-left:25px;
+    font-size:23px;
+    font-weight:bold;
+}
+nav ul li a{
+    color:green;
+    text-decoration:none; /* Remove underline from the linked text */
+}
+nav ul li a:visited{
+    color:red;
+}
+nav ul li a:hover{
+    color:black;
+    text-decoration:underline;
+    text-decoration-color:red;
+}
+.cover{
+    width:100%;
+    height:150px;
+    background-image:url("../photos/community.jpeg");
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position:center;
+    background-color:yellow; /* This will act as fallback color if image is not loaded */
+}
+.cover h3{
+    font-family:sans-serif;
+    font-size:30px;
+	font-weight:bold;
+    color:black;
+    text-align:center;
+}
+.cover p{
+    font-family:sans-serif;
+    font-size:25px;
+    color:#3244a8;
+    line-height:1.5;
+    text-align:center;
+}
+.footer{
+    background-color:black;
+    color:white;
+    padding:15px;
+    font-weight:bold;
+}
+.programmes{
+	display:grid;
+	grid-template-columns:auto auto auto auto;
+}
+.programme-card img{
+	width:200px;
+	height:150px;
+	border-radius:15px;
+}
+.programme-card h3{
+	color:#f5e942;
+}
+.programme-card button{
+	background-color:#f5e942;
+	color:green;
+	border:1px solid red;
+	border-radius:10px;
+	font-weight:bold;
+	padding-top:5px;
+	padding-bottom:5px;
+}
+.programme-card{
+	border:1px solid yellow;
+	border-radius:10px;
+	margin:15px;
+	padding:10px;
+}
+.programme-card button:hover{
+	background-color:black;
+	color:yellow;
+	border:2px solid green;
+	cursor:pointer;
+	outline:3px solid black;
+}
+body{
+	background-color:#4287f5;
+	text-align:center;
+}
+.team-member{
+	border:1px solid yellow;
+	border-radius:10px;
+	margin:15px;
+	padding:10px;
+}
+.team-member img{
+	width:150px;
+	height:135px;
+	border-radius:100px;
+}
+.team-member button{
+	font-size:15px;
+	background-color:yellow;
+	color:green;
+	border-color:black;
+	outline-style:solid;
+	outline-color:#34deeb;
+	outline-width:3px;
+	border-radius:15px;
+	font-weight:bold;
+	padding-top:3px;
+	padding-bottom:3px;
+}
+.team-member button:hover{
+	background-color:black;
+	color:white;
+}
+.team{
+	display:grid;
+	grid-template-columns:auto auto auto auto;
+}
+.contact-card button{
+	background-color:green;
+	color:white;
+	border:1px solid red;
+	border-radius:10px;
+	font-weight:bold;
+	padding-top:5px;
+	padding-bottom:5px;
+}
+.contact-card button a{
+	text-decoration:none;
+	color:white;
+}
+.contact-card{
+	border:1px solid yellow;
+	border-radius:10px;
+	margin:15px;
+	padding:10px;
+}
+.contact-card button:hover{
+	background-color:black;
+	color:white;
+	border:2px solid green;
+	cursor:pointer;
+	outline:3px solid green;
+	text-decoration:none;
+}
+.contact{
+	display:grid;
+	grid-template-columns:auto auto auto auto;
+}
+.contact-card img{
+	width:80px;
+	height:80px;
+	border-radius:47px;
+}
